@@ -9,7 +9,6 @@ https://labibliateca.github.io/Docs/MishnahZ.html
 https://labibliateca.github.io/Docs/NovedadF.html
 https://labibliateca.github.io/Docs/Policarpo.html
 https://labibliateca.github.io/Docs/PolicarpoFilipenses.html
-https://labibliateca.github.io/Docs/PolicarpoFilipensesSP.doc.html
 https://labibliateca.github.io/Docs/SobreLaPascuaMeliton.html
 https://labibliateca.github.io/Docs/TamidMiddot.html
 https://labibliateca.github.io/Docs/TertulianoVsPraexas.html
