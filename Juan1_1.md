@@ -1,4 +1,4 @@
-# Interpretación de Juan 1:1 .  
+## Interpretación de Juan 1:1 .  
 [**TOCAR PARA PREGUNTAR AL AUTOR**](Qg.html) .   
 **Este ensayo NO intenta tomar posturas Trinitarias o "Anti"  sino limpiar nuestro vocabulario de expresiones extrabiblicas** .       
 
