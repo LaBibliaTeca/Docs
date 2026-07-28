@@ -17,7 +17,6 @@ https://labibliateca.github.io/Docs/amianitus.html
 https://labibliateca.github.io/Docs/credo.html
 https://labibliateca.github.io/Docs/index.html
 https://labibliateca.github.io/Docs/labrecha.html
-https://labibliateca.github.io/Docs/lector.html
 https://labibliateca.github.io/Docs/logikos.html
 https://labibliateca.github.io/Docs/mishnah.html
 https://labibliateca.github.io/Docs/sacrificios.html
