@@ -6,8 +6,8 @@ https://labibliateca.github.io/Docs/Cain.html
 https://labibliateca.github.io/Docs/CantidadBiblicas.html
 https://labibliateca.github.io/Docs/CartaClemente.md
 https://labibliateca.github.io/Docs/CartaDeEusebio.md
+https://labibliateca.github.io/Docs/CartadeEusebio_aDamaso.html
 https://labibliateca.github.io/Docs/CasiodoroReina.html
-https://labibliateca.github.io/Docs/CodexAmiatinus.html
 https://labibliateca.github.io/Docs/ContraCelsoIntro.md
 https://labibliateca.github.io/Docs/CredoNiceaConstantinopla.html
 https://labibliateca.github.io/Docs/Daniel y Las70.md
