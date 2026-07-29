@@ -1,6 +1,6 @@
 ## Daniel y las setenta semanas: una lectura de hipótesis probable.  
 
-
+*De Jorge Ramirez.   
 
 El siguiente ensayo tiene por objetivo, en primer lugar, dar un esbozo de ideas respetuosas sin dar lugar a una discusión o atentar a creencias ya consolidadas. En segundo lugar, la idea de este ensayo es proponer una hipótesis, la cual articula y sostiene que Daniel 9: 24-27  
 
