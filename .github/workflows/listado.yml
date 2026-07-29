@@ -19,7 +19,7 @@ jobs:
 
       - name: Generar pag.txt
         run: |
-          find . -type f -name "*.html" \
+        find . -type f \( -name "*.html" -o -name "*.md" \) \
             | sed 's|^\./||' \
             | sort \
             | awk '{print "https://labibliateca.github.io/Docs/" $0}' \
