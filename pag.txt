@@ -7,6 +7,7 @@ https://labibliateca.github.io/Docs/CantidadBiblicas.html
 https://labibliateca.github.io/Docs/CartaClemente.md
 https://labibliateca.github.io/Docs/CasiodoroReina.html
 https://labibliateca.github.io/Docs/ContraCelsoIntro.md
+https://labibliateca.github.io/Docs/CredoNiceaConstantinopla.html
 https://labibliateca.github.io/Docs/Daniel y Las70.md
 https://labibliateca.github.io/Docs/HermeneuticaSiglo18.md
 https://labibliateca.github.io/Docs/Juan1_1DilemaOntologico.md
@@ -23,7 +24,6 @@ https://labibliateca.github.io/Docs/TamidMiddot.html
 https://labibliateca.github.io/Docs/TertulianoVsPraexas.html
 https://labibliateca.github.io/Docs/VulgataPrologoGaleato.html
 https://labibliateca.github.io/Docs/amianitus.html
-https://labibliateca.github.io/Docs/credo.html
 https://labibliateca.github.io/Docs/index.html
 https://labibliateca.github.io/Docs/labrecha.html
 https://labibliateca.github.io/Docs/logikos.md
