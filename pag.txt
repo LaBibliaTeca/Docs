@@ -3,7 +3,7 @@ https://labibliateca.github.io/Docs/Arrianismo.html
 https://labibliateca.github.io/Docs/Arrianismo.md
 https://labibliateca.github.io/Docs/AtanasioVsArrianos.html
 https://labibliateca.github.io/Docs/Cain.html
-https://labibliateca.github.io/Docs/Cantidad.html
+https://labibliateca.github.io/Docs/CantidadBiblicas.html
 https://labibliateca.github.io/Docs/CartaClemente.md
 https://labibliateca.github.io/Docs/CasiodoroReina.html
 https://labibliateca.github.io/Docs/ContraCelsoIntro.md
