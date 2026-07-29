@@ -19,11 +19,12 @@ jobs:
 
       - name: Generar pag.txt
         run: |
-        find . -type f \( -name "*.html" -o -name "*.md" \) \
-            | sed 's|^\./||' \
-            | sort \
-            | awk '{print "https://labibliateca.github.io/Docs/" $0}' \
-            > pag.txt
+find . -type f \( -name "*.html" -o -name "*.md" \) \
+  | sed 's|^\./||' \
+  | sort \
+  | awk '{print "https://labibliateca.github.io/Docs/" $0}' \
+  > pag.txt
+
 
       - name: Confirmar cambios
         run: |
