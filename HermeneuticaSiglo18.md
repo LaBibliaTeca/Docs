@@ -3,8 +3,8 @@
 **Friedrich Schleiermacher** creó el término en el siglo 19 , en principio fue rechazado por Protestantes y Católicos por considerarla subjetiva.  
 Este cuadro compara formación, filiación denominacional y enfoque hermenéutico de los pensadores más influyentes.   
 
-| Pensador                | Formación principal | Filiación denominacional | Enfoque hermenéutico |
-|--------------------------|---------------------|--------------------------|-----------------------|
+| Pensador                | Formación principal |Denominacional | Enfoque hermenéutico |
+|--------------------------|---------------------|---------------|-----------------------|
 | Friedrich Schleiermacher | Teología y filosofía | Reformado (protestante) | Hermenéutica como comprensión psicológica y gramatical; fuerte influencia de la teología liberal |
 | Johann August Ernesti    | Filología clásica y teología | Luterano | Aplicación de reglas lingüísticas y filológicas a la Biblia; interpretación gramatical y literal |
 | Wilhelm Dilthey          | Filosofía y ciencias del espíritu | Trasfondo luterano | Hermenéutica como método de las ciencias humanas; énfasis en la comprensión histórica y vital |
@@ -31,8 +31,8 @@ Esto explica por qué, salvo Ernesti, muchos de estos pensadores dieron a la her
 
 Este cuadro compara formación, filiación denominacional y enfoque hermenéutico de los pensadores más influyentes.  
 
-| Pensador                | Formación principal | Filiación denominacional | Enfoque hermenéutico |
-|--------------------------|---------------------|--------------------------|-----------------------|
+| Pensador                | Formación principal |Denominacional | Enfoque hermenéutico |
+|--------------------------|---------------------|---------------|-----------------------|
 | Johann August Ernesti    | Filología clásica y teología | Luterano | Aplicación de reglas lingüísticas y filológicas a la Biblia; interpretación gramatical y literal |
 | Friedrich Schleiermacher | Teología y filosofía | Reformado (protestante) | Hermenéutica como comprensión psicológica y gramatical; fuerte influencia de la teología liberal |
 | Wilhelm Dilthey          | Filosofía y ciencias del espíritu | Trasfondo luterano | Hermenéutica como método de las ciencias humanas; énfasis en la comprensión histórica y vital |
