@@ -25,7 +25,7 @@ https://labibliateca.github.io/Docs/TertulianoVsPraexas.html
 https://labibliateca.github.io/Docs/VulgataPrologoGaleato.html
 https://labibliateca.github.io/Docs/amianitus.html
 https://labibliateca.github.io/Docs/index.html
-https://labibliateca.github.io/Docs/labrecha.html
+https://labibliateca.github.io/Docs/labrechaDeLosLenguajes.html
 https://labibliateca.github.io/Docs/logikos.md
 https://labibliateca.github.io/Docs/mishnah.html
 https://labibliateca.github.io/Docs/sacrificios.html
