@@ -29,6 +29,6 @@ https://labibliateca.github.io/Docs/labrechaDeLosLenguajes.html
 https://labibliateca.github.io/Docs/logikos.md
 https://labibliateca.github.io/Docs/mishnah.html
 https://labibliateca.github.io/Docs/sacrificios_enla_mishna.html
-https://labibliateca.github.io/Docs/siclos.html
+https://labibliateca.github.io/Docs/siclos_sheqalim_Mishna.html
 https://labibliateca.github.io/Docs/velo.html
 https://labibliateca.github.io/Docs/vino.html
