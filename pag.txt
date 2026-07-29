@@ -10,6 +10,7 @@ https://labibliateca.github.io/Docs/ContraCelsoIntro.md
 https://labibliateca.github.io/Docs/CredoNiceaConstantinopla.html
 https://labibliateca.github.io/Docs/Daniel y Las70.md
 https://labibliateca.github.io/Docs/HermeneuticaSiglo18.md
+https://labibliateca.github.io/Docs/IglesiaySinagoga.html
 https://labibliateca.github.io/Docs/Juan1_1DilemaOntologico.md
 https://labibliateca.github.io/Docs/JustinoHistoria.html
 https://labibliateca.github.io/Docs/MilenioLiteral.html
