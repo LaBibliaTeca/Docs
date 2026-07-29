@@ -9,6 +9,7 @@ https://labibliateca.github.io/Docs/CasiodoroReina.html
 https://labibliateca.github.io/Docs/ContraCelsoIntro.md
 https://labibliateca.github.io/Docs/CredoNiceaConstantinopla.html
 https://labibliateca.github.io/Docs/Daniel y Las70.md
+https://labibliateca.github.io/Docs/ElCantoDelGallo.html
 https://labibliateca.github.io/Docs/HermeneuticaSiglo18.md
 https://labibliateca.github.io/Docs/IglesiaySinagoga.html
 https://labibliateca.github.io/Docs/Juan1_1DilemaOntologico.md
@@ -28,7 +29,6 @@ https://labibliateca.github.io/Docs/TertulianoVsPraexas.html
 https://labibliateca.github.io/Docs/VeloEnLaIglesia.html
 https://labibliateca.github.io/Docs/VulgataPrologoGaleato.html
 https://labibliateca.github.io/Docs/amianitus.html
-https://labibliateca.github.io/Docs/gallo.html
 https://labibliateca.github.io/Docs/index.html
 https://labibliateca.github.io/Docs/labrechaDeLosLenguajes.html
 https://labibliateca.github.io/Docs/logikos.md
