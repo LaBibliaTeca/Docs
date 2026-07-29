@@ -35,5 +35,6 @@ jobs:
           else
             git commit -m "Actualizar pag.txt"
             git push
+          fi  
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
