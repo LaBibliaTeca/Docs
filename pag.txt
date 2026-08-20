@@ -17,6 +17,7 @@ https://labibliateca.github.io/Docs/ELECCION DIOSoHOMBRE.md
 https://labibliateca.github.io/Docs/ElCantoDelGallo.html
 https://labibliateca.github.io/Docs/ElecciondeDios_uHombre.html
 https://labibliateca.github.io/Docs/HermeneuticaSiglo18.md
+https://labibliateca.github.io/Docs/Iglesias Ministeriales.html
 https://labibliateca.github.io/Docs/IglesiaySinagoga.html
 https://labibliateca.github.io/Docs/Joel.html
 https://labibliateca.github.io/Docs/Juan1_1DilemaOntologico.md
