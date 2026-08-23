@@ -1,4 +1,4 @@
-## APOLOGIA_TERTULIANO
+## APOLOGIA TERTULIANO
 
 Tertuliano (c. 155–220 d.C.) fue un escritor cristiano de Cartago y uno de los primeros grandes autores cristianos en lengua latina. Su Apología, escrita probablemente hacia 197 d.C., está dirigida a las autoridades romanas y defiende a los cristianos frente a las acusaciones y persecuciones que sufrían. Tertuliano sostiene que los cristianos no deben ser condenados por su nombre, sino juzgados por sus actos, y denuncia la injusticia de un sistema que los castiga sin permitirles una defensa adecuada. La obra también explica aspectos de la fe y conducta cristianas, mostrando que los creyentes no constituían una amenaza para el Estado romano. Es uno de los testimonios más importantes para conocer la situación del cristianismo en el Imperio a fines del siglo II.
 
