@@ -38,6 +38,7 @@ https://labibliateca.github.io/Docs/TertulianoVsPraexas.html
 https://labibliateca.github.io/Docs/VeloEnLaIglesia.html
 https://labibliateca.github.io/Docs/Versiones.html
 https://labibliateca.github.io/Docs/VulgataPrologoGaleato.html
+https://labibliateca.github.io/Docs/el ApologeticoTertuliano.md
 https://labibliateca.github.io/Docs/index.html
 https://labibliateca.github.io/Docs/labrechaDeLosLenguajes.html
 https://labibliateca.github.io/Docs/logikos.md
