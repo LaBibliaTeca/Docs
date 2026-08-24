@@ -1,6 +1,6 @@
 
-## Sobre la Pascua.  
-*En corrección*.  
+## Sobre la Pascua de Melitón.  
+*En revision*.  
 ### MELITON DE [SARDIS](https://es.wikipedia.org/wiki/Sardes) SIGLO II.  
 **Introducción (1­ al 10)**.  
 1. En primer lugar se ha leído la Escritura sobre el Éxodo hebreo y se han explicado las palabras del misterio de cómo
