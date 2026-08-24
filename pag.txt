@@ -2,7 +2,6 @@ https://labibliateca.github.io/Docs/1JustinoApologia.html
 https://labibliateca.github.io/Docs/2apologiajustino.html
 https://labibliateca.github.io/Docs/ApologiaTertuliano.md
 https://labibliateca.github.io/Docs/Apostol.md
-https://labibliateca.github.io/Docs/Arrianismo.html
 https://labibliateca.github.io/Docs/Arrianismo.md
 https://labibliateca.github.io/Docs/AtanasioVsArrianos.html
 https://labibliateca.github.io/Docs/Cain.html
