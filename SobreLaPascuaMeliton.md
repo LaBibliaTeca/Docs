@@ -1,7 +1,7 @@
 
 ## Sobre la Pascua.  
 *En corrección*.  
-### MELITON DE SARDIS SIGLO II.  
+### MELITON DE [SARDIS](https://es.wikipedia.org/wiki/Sardes) SIGLO II.  
 **Introducción (1­ al 10)**.  
 1. En primer lugar se ha leído la Escritura sobre el Éxodo hebreo y se han explicado las palabras del misterio de cómo
 se sacrificó la oveja y se salvó el pueblo.
