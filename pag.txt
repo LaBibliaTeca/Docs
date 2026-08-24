@@ -31,7 +31,6 @@ https://labibliateca.github.io/Docs/Pecar_Errar_alBlanco.html
 https://labibliateca.github.io/Docs/PolicarpoFilipenses.html
 https://labibliateca.github.io/Docs/PolicarpoHistoria.html
 https://labibliateca.github.io/Docs/Sacramento.md
-https://labibliateca.github.io/Docs/SobreLaPascuaMeliton.html
 https://labibliateca.github.io/Docs/SobreLaPascuaMeliton.md
 https://labibliateca.github.io/Docs/SobreLasViudas.html
 https://labibliateca.github.io/Docs/TamidMiddot.html
