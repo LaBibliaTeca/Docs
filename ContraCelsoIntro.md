@@ -1,6 +1,6 @@
  OrigenesContraCelso
 
-### **QUIÉN FUE ORÍGENES DE ALEJANDRÍA:  
+### **QUIÉN FUE ORÍGENES DE [ALEJANDRÍA](https://es.wikipedia.org/wiki/Biblioteca_de_Alejandría):  
 **
 
 _(184. 253 DC) Según Eusebio de Cesarea (Siglo 4), el padre de Orígenes era Leónidas de Alejandría, un respetado profesor de literatura y también un cristiano devoto .  
