@@ -1,0 +1,480 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Visor por capítulos</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Georgia, serif;
+        background: #f5f5f5;
+        color: #222;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: #ffffff;
+        border-bottom: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+    }
+
+    button {
+        padding: 7px 12px;
+        margin: 2px;
+        cursor: pointer;
+    }
+
+    #titulo {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+
+    #contenido {
+        max-width: 900px;
+        margin: 25px auto;
+        background: white;
+        padding: 30px;
+        line-height: 1.65;
+        box-sizing: border-box;
+    }
+
+    #estado {
+        text-align: center;
+        color: #666;
+        padding: 20px;
+    }
+
+    .error {
+        color: darkred;
+        background: #ffeaea;
+        padding: 15px;
+        border: 1px solid #cc8888;
+    }
+
+    @media (max-width: 700px) {
+        #contenido {
+            margin: 10px;
+            padding: 18px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <div id="titulo">Visor por capítulos</div>
+
+    <button onclick="capituloAnterior()">← Anterior</button>
+
+    <span id="numeroCapitulo">Capítulo</span>
+
+    <button onclick="capituloSiguiente()">Siguiente →</button>
+
+</header>
+
+
+<div id="estado">
+    Cargando...
+</div>
+
+
+<main id="contenido" style="display:none;"></main>
+
+
+<script>
+
+/*
+===========================================================
+ CONFIGURACIÓN DE LOS LIBROS
+===========================================================
+*/
+
+const LIBROS = {
+
+    apologeticum: {
+
+        titulo: "Tertuliano — Apologeticum",
+
+        /*
+         * IMPORTANTE:
+         *
+         * Este archivo debe estar alojado en TU servidor
+         * o repositorio para que fetch() pueda leerlo.
+         */
+
+        fuente: "textos/apologeticum.html",
+
+        capitulos: [
+
+            {
+                numero: 1,
+                titulo: "Capítulo I",
+                inicio: "CAPITULO I.",
+                fin: "CAPITULO II."
+            },
+
+            {
+                numero: 2,
+                titulo: "Capítulo II",
+                inicio: "CAPITULO II.",
+                fin: "CAPITULO III."
+            },
+
+            {
+                numero: 3,
+                titulo: "Capítulo III",
+                inicio: "CAPITULO III.",
+                fin: "CAPITULO IV."
+            },
+
+            {
+                numero: 4,
+                titulo: "Capítulo IV",
+                inicio: "CAPITULO IV.",
+                fin: "CAPITULO V."
+            }
+
+        ]
+    }
+
+};
+
+
+/*
+===========================================================
+ LEER PARÁMETROS DE LA URL
+===========================================================
+*/
+
+const parametros = new URLSearchParams(
+    window.location.search
+);
+
+const nombreLibro =
+    parametros.get("texto") || "apologeticum";
+
+let numeroCapitulo =
+    parseInt(parametros.get("cap")) || 1;
+
+
+/*
+===========================================================
+ OBTENER LIBRO
+===========================================================
+*/
+
+const libro = LIBROS[nombreLibro];
+
+if (!libro) {
+
+    mostrarError(
+        "No existe el libro: " + nombreLibro
+    );
+
+} else {
+
+    cargarCapitulo();
+
+}
+
+
+/*
+===========================================================
+ CARGAR CAPÍTULO
+===========================================================
+*/
+
+async function cargarCapitulo() {
+
+    const estado =
+        document.getElementById("estado");
+
+    const contenido =
+        document.getElementById("contenido");
+
+    const numero =
+        document.getElementById("numeroCapitulo");
+
+    const capitulo =
+        libro.capitulos.find(
+            c => c.numero === numeroCapitulo
+        );
+
+    if (!capitulo) {
+
+        mostrarError(
+            "No existe el capítulo " +
+            numeroCapitulo
+        );
+
+        return;
+    }
+
+
+    estado.style.display = "block";
+
+    estado.innerHTML =
+        "Cargando " +
+        capitulo.titulo +
+        "...";
+
+    contenido.style.display = "none";
+
+
+    try {
+
+        const respuesta =
+            await fetch(libro.fuente);
+
+        if (!respuesta.ok) {
+
+            throw new Error(
+                "HTTP " + respuesta.status
+            );
+        }
+
+
+        const texto =
+            await respuesta.text();
+
+
+        /*
+         * Convertimos el HTML original
+         * en un documento DOM.
+         */
+
+        const parser =
+            new DOMParser();
+
+        const documento =
+            parser.parseFromString(
+                texto,
+                "text/html"
+            );
+
+
+        /*
+         * Obtenemos solamente el texto.
+         */
+
+        const textoCompleto =
+            documento.body.innerText;
+
+
+        /*
+         * BUSCAR MARCADOR INICIAL
+         */
+
+        const posicionInicio =
+            textoCompleto.indexOf(
+                capitulo.inicio
+            );
+
+
+        if (posicionInicio === -1) {
+
+            throw new Error(
+                "No se encontró el marcador inicial: " +
+                capitulo.inicio
+            );
+        }
+
+
+        /*
+         * BUSCAR MARCADOR FINAL
+         */
+
+        const posicionFin =
+            textoCompleto.indexOf(
+                capitulo.fin,
+                posicionInicio +
+                capitulo.inicio.length
+            );
+
+
+        if (posicionFin === -1) {
+
+            throw new Error(
+                "No se encontró el marcador final: " +
+                capitulo.fin
+            );
+        }
+
+
+        /*
+         * CORTAR EL CAPÍTULO
+         */
+
+        const capituloTexto =
+            textoCompleto.substring(
+                posicionInicio,
+                posicionFin
+            );
+
+
+        /*
+         * Mostrar
+         */
+
+        contenido.innerHTML =
+            convertirTextoHTML(
+                capituloTexto
+            );
+
+
+        document.title =
+            libro.titulo +
+            " — " +
+            capitulo.titulo;
+
+
+        numero.textContent =
+            capitulo.titulo;
+
+
+        estado.style.display =
+            "none";
+
+        contenido.style.display =
+            "block";
+
+
+        /*
+         * Actualizar URL
+         */
+
+        history.replaceState(
+            null,
+            "",
+            "?texto=" +
+            encodeURIComponent(nombreLibro) +
+            "&cap=" +
+            numeroCapitulo
+        );
+
+
+    } catch (error) {
+
+        mostrarError(
+            "No se pudo cargar el texto.<br><br>" +
+            error.message
+        );
+
+    }
+
+}
+
+
+/*
+===========================================================
+ CONVERTIR TEXTO PLANO A HTML
+===========================================================
+*/
+
+function convertirTextoHTML(texto) {
+
+    /*
+     * Escapar HTML para evitar que el texto
+     * original sea interpretado como código.
+     */
+
+    texto =
+        texto
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+
+
+    /*
+     * Separar párrafos por líneas vacías.
+     */
+
+    const parrafos =
+        texto.split(/\n\s*\n/);
+
+
+    return parrafos
+        .map(p =>
+            "<p>" +
+            p.trim()
+             .replace(/\n/g, "<br>") +
+            "</p>"
+        )
+        .join("\n");
+
+}
+
+
+/*
+===========================================================
+ CAPÍTULO ANTERIOR
+===========================================================
+*/
+
+function capituloAnterior() {
+
+    if (numeroCapitulo <= 1)
+        return;
+
+    numeroCapitulo--;
+
+    cargarCapitulo();
+
+}
+
+
+/*
+===========================================================
+ CAPÍTULO SIGUIENTE
+===========================================================
+*/
+
+function capituloSiguiente() {
+
+    if (
+        numeroCapitulo >=
+        libro.capitulos.length
+    )
+        return;
+
+    numeroCapitulo++;
+
+    cargarCapitulo();
+
+}
+
+
+/*
+===========================================================
+ ERROR
+===========================================================
+*/
+
+function mostrarError(mensaje) {
+
+    const estado =
+        document.getElementById("estado");
+
+    estado.innerHTML =
+        '<div class="error">' +
+        mensaje +
+        '</div>';
+
+}
+
+</script>
+
+</body>
+</html>
+```
