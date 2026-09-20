@@ -4,46 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Externa de Origen</title>
+    <title>Enlace directo al título</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 40px;
-            text-align: center;
-            background-color: #f9f9f9;
-        }
-        .contenedor {
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            display: inline-block;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .enlace-boton {
-            display: inline-block;
-            padding: 12px 24px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: bold;
-        }
-        .enlace-boton:hover {
-            background-color: #0056b3;
-        }
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f4f4f4; }
+        .boton { display: inline-block; padding: 15px 30px; background: #007BFF; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .boton:hover { background: #0056b3; }
     </style>
 </head>
 <body>
 
-    <div class="contenedor">
-        <h1>Bienvenidos a mi Sitio</h1>
-        <p>Hacé clic en el siguiente botón para leer el contenido específico:</p>
-        
-        <!-- Este es el enlace clave que apunta directamente al #cap1 de la otra web -->
-        <a class="enlace-boton" href="https://tertullian.org/articles/manero/manero2_apologeticum.htm">
-            Ir directo al Capítulo 1
-        </a>
-    </div>
+    <h1>Acceso Directo</h1>
+    <p>El siguiente enlace te llevará directamente al título del Capítulo 1, resaltándolo en pantalla:</p>
+
+    <!-- El secreto está en el formato #:~:text= al final del link -->
+    <a class="boton" href="https://tertullian.org.">
+        Abrir exclusivamente en CAPITULO I
+    </a>
 
 </body>
 </html>
