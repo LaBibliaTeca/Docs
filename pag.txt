@@ -43,4 +43,5 @@ https://labibliateca.github.io/Docs/logikos.md
 https://labibliateca.github.io/Docs/mishnah.html
 https://labibliateca.github.io/Docs/sacrificios_enla_mishna.html
 https://labibliateca.github.io/Docs/siclos_sheqalim_Mishna.html
+https://labibliateca.github.io/Docs/tertuliano ApologeticoCap.html
 https://labibliateca.github.io/Docs/vino.html
