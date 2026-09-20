@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redireccionando...</title>
+    
+    <!-- Opción 1: Redirección nativa HTML (Cambia el "0" por los segundos de espera que quieras) -->
+    <meta http-equiv="refresh" content="0; url=https://pagina-externa.com">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+        .mensaje {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            display: inline-block;
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="mensaje">
+        <h2>Estamos redirigiéndote a nuestro nuevo sitio</h2>
+        <p>Si la página no carga automáticamente, <a href="https://pagina-externa.com">haz clic aquí</a>.</p>
+    </div>
+
+    <!-- Opción 2: Redirección por JavaScript (Quita los símbolos <!-- y --> si prefieres usar esta)
+    <script>
+        window.location.href = "https://pagina-externa.com";
+    </script> 
+    -->
+
+</body>
+</html>
