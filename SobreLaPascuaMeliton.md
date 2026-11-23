@@ -1,7 +1,7 @@
 
 ## Sobre la Pascua de [Melitón](https://es.wikipedia.org/wiki/Melit%C3%B3n_de_Sardes).  
 *En revisión*.  
-**La obra fue mencionada por Eusebio de Cesarea y rescatada de papiros egipcios en 1940**.  
+>La obra fue mencionada por Eusebio de Cesarea y rescatada de papiros egipcios en 1940.  
 >El texto es una recuperacion de fragmentos.
 >Melitón fus obispo de Sardis entre el 160 y 180dc.    
 ### MELITóN DE [SARDIS](https://es.wikipedia.org/wiki/Sardes) SIGLO II.  
