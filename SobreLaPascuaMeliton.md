@@ -1,7 +1,10 @@
 
 ## Sobre la Pascua de [Melitón](https://es.wikipedia.org/wiki/Melit%C3%B3n_de_Sardes).  
-*En revision*.  
-### MELITON DE [SARDIS](https://es.wikipedia.org/wiki/Sardes) SIGLO II.  
+*En revisión*.  
+**La obra fue mencionada por Eusebio de Cesarea y rescatada de paipros egipcios en 1940**.  
+>El texto es una recuperacion de fragmentos.
+>Melitón fus obispo de Sardis entre el 160 y 180dc.    
+### MELITóN DE [SARDIS](https://es.wikipedia.org/wiki/Sardes) SIGLO II.  
 **Introducción (1­ al 10)**.  
 1. En primer lugar se ha leído la Escritura sobre el Éxodo hebreo y se han explicado las palabras del misterio de cómo
 se sacrificó la oveja y se salvó el pueblo.
