@@ -182,8 +182,9 @@ se envía rescate, por su causa se envían embajadores en ordene que el
 podría ser entregado, de modo que podría ser devuelto si vivo, o que podría ser enterrado si estuviera muerto.
 92. Pero vosotros, por el contrario, votasteis contra vuestro Señor, a quien
 en verdad las naciones adoraron, y los incircuncisos admiraron, y
-glorificaron a los extranjeros, sobre quienes Pilato se lavó las manos. Pero en cuanto a ti, un comienzo indescriptible y
-un final incomprensible.
+glorificaron a los extranjeros, sobre quienes Pilato se lavó las manos.
+Encuanto a tu humanidad ,tuviste un comienzo en el tiempo , Pero en cuanto a ti, un comienzo indescriptible y
+un final incomprensible(varia en las traducciones).
 Este es el Cristo. Este es el rey. Este es Jesús. Este es el general. Este es el Señor. Éste es el que resucitó de entre
 los muertos. Éste es el que está sentado a la diestra del Padre.
 ### Él lleva al Padre y es llevado por el Padre, a quien sea la gloria y el poder por los siglos. Amén.
