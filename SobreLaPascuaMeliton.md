@@ -2,10 +2,10 @@
 ## Sobre la Pascua , de [Melitón](https://es.wikipedia.org/wiki/Melit%C3%B3n_de_Sardes).  
 *En revisión*.  
 >La obra fue mencionada por Eusebio de Cesarea y rescatada de papiros egipcios en 1940.  
->El texto es una recuperación de fragmentos.
->Melitón fus obispo de Sardis entre el 160 y 180dc.
+>**El texto es una recuperación de fragmentos**.
+>Melitón fue obispo de Sardis entre el 160 y 180dc.
 >Fue un defensor de seguir celebrando la Pascua el 14 del mes de Nisán y no cambiar a la fecha patrística del siguiente domingo después del equinoccio (21 de marzo aproximadamente).      
-### MELITóN DE [SARDIS](https://es.wikipedia.org/wiki/Sardes) SIGLO II.  
+### MELITóN DE [SARDiS](https://es.wikipedia.org/wiki/Sardes) SIGLO II.  
 **Introducción (1­ al 10)**.  
 1. En primer lugar se ha leído la Escritura sobre el Éxodo hebreo y se han explicado las palabras del misterio de cómo
 se sacrificó la oveja y se salvó el pueblo.
